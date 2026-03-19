@@ -1,44 +1,36 @@
-# 📌 Project Backlog & Status
+# 📌 Project Backlog - Version 2.0 (The Maze Evolution)
 *(Para a versão em Português, [clique aqui](#-versão-em-português-brasileiro))*
 
 ## 🇺🇸 English Version
 
-### 🎨 Graphics & UI/UX
-- [x] **Heads-Up Display (HUD):** Create a visual UI overlay displaying real-time metrics.
-- [x] **Sprite Integration:** Replace basic rectangles with dynamic geometric sprites.
-- [x] **Visual Themes:** Add cybernetic grid background for spatial awareness.
-- [x] **XAI Dashboard (Director):** Display an on-screen log translating the LLM's decisions.
-- [x] **Visual Hitbox Correction:** Sync visual lerp position with crash coordinates.
-- [x] **Ultra-Fluid Movement:** Upgrade lerp to be completely time-dependent (Time-based Lerp) decoupling frame rate from tick rate.
-- [x] **Agent XAI Panel:** Implement a UI panel translating the Q-Table mathematical values and radar into human-readable natural language.
-- [x] **Graphic Overhaul:** Complete Sci-Fi UI/UX redesign with a neon cyberpunk palette, glowing hazards, and an advanced drone sprite.
+### 🌐 Web & Architecture
+- [ ] **GitHub Pages Deployment:** Port the Python/Pygame engine to WebAssembly (Wasm) using `pygbag` or `asyncio` so it runs natively in the browser.
+- [ ] **Web API Security:** Adapt the Groq LLM API requests and multithreading to comply with browser CORS and asynchronous web limits.
 
-### 🧠 AI & System Architecture
-- [x] **Multithreading:** Move the LLM API calls to a background thread to prevent game freezing.
-- [x] **Initial Learning Curve (Onboarding):** Start the first epoch with very low hazards to allow safe Q-Table population.
-- [x] **Diagonal Movement:** Expand AI action space to 8 directions.
-- [x] **Advanced Collision Physics:** Prevent diagonal corner-cutting ghosting by adding intermediate hazard checks.
-- [x] **Torus Topology (Pac-Man Effect):** Allow the player to cross screen borders infinitely.
-- [x] **Graceful Degradation (API Fallback):** Implement a "Last Known Good State" memory and backoff timer if the LLM API drops.
+### 🏗️ Core Gameplay & Procedural Generation
+- [ ] **Dynamic Labyrinth Engine:** Overhaul the hazard generation. Replace isolated plasma mines with connected "walls" that dynamically spawn and despawn to create shifting corridors.
+- [ ] **Procedural Algorithms:** Implement coherent maze generation (e.g., Cellular Automata) so the environment truly feels like a shifting maze rather than random noise.
+- [ ] **Level Progression (Scenarios):** Introduce distinct phases/levels with different visual themes, grid sizes, or LLM Director personalities as the agent survives longer.
+
+### 🎛️ UI/UX & Audio Engineering
+- [ ] **Sound Design:** Implement sound effects (SFX) for UI interactions, agent movement, shifting walls, and game-over explosions.
+- [ ] **Interactive Game State Controls:** Add clickable UI buttons for `Start`, `Pause/Stop`, and `Restart` the simulation.
+- [ ] **Audio Controls:** Add a volume control slider or a Mute/Unmute toggle for the sound effects.
 
 ---
 
 ## 🇧🇷 Versão em Português Brasileiro
 
-### 🎨 Gráficos & UI/UX
-- [x] **Interface de Bordo (HUD):** Criar uma interface visual com métricas em tempo real.
-- [x] **Integração de Sprites:** Substituir retângulos básicos por sprites geométricos dinâmicos.
-- [x] **Temas Visuais:** Adicionar grade cibernética no fundo.
-- [x] **Dashboard XAI (Diretor):** Mostrar log traduzindo as decisões do LLM.
-- [x] **Correção de Hitbox Visual:** Sincronizar posição visual com coordenadas reais na explosão.
-- [x] **Movimentação Ultra-Fluida:** Interpolação linear por tempo desacoplando o FPS do pensamento da IA.
-- [x] **Painel XAI do Agente:** Implementar painel traduzindo valores da Q-Table e radar para linguagem natural.
-- [x] **Overhaul Gráfico:** Redesign completo em estilo Sci-Fi/Cyberpunk com paleta neon, perigos brilhantes e um sprite de drone avançado.
+### 🌐 Web & Arquitetura
+- [ ] **Deploy no GitHub Pages:** Portar a engine do Pygame para WebAssembly (Wasm) usando `pygbag` ou `asyncio` para rodar direto no navegador.
+- [ ] **Segurança de API Web:** Adaptar as requisições da Groq e o multithreading para funcionar dentro das regras de segurança e assincronicidade do navegador (CORS).
 
-### 🧠 IA & Arquitetura de Sistema
-- [x] **Multithreading:** Mover requisições do LLM para segundo plano para evitar travamentos.
-- [x] **Curva de Aprendizado (Onboarding):** Iniciar a primeira rodada com perigos quase zerados para a IA mapear rotas seguras.
-- [x] **Movimentação Diagonal:** Expandir as ações da IA para 8 direções.
-- [x] **Física de Colisão Avançada:** Impedir ghosting diagonal adicionando checagem de impacto nas quinas.
-- [x] **Topologia Toroide (Efeito Pac-Man):** Permitir atravessar as bordas da tela infinitamente.
-- [x] **Degradação Graciosa (Fallback da API):** Manter últimas regras válidas e estender o timer se a conexão com o LLM cair.
+### 🏗️ Gameplay & Geração Procedural
+- [ ] **Motor de Labirinto Dinâmico:** Refazer a geração de perigos. Substituir minas isoladas por "paredes" conectadas que surgem e desaparecem, criando corredores mutáveis.
+- [ ] **Algoritmos Procedurais:** Implementar algoritmos de labirinto (ex: Autômatos Celulares) para garantir que as paredes pareçam uma estrutura coesa e não apenas ruído aleatório.
+- [ ] **Progressão de Fases (Cenários):** Criar diferentes níveis com temas visuais, tamanhos de grade ou personalidades do Diretor LLM distintos conforme o agente sobrevive.
+
+### 🎛️ UI/UX & Engenharia de Áudio
+- [ ] **Design de Som:** Adicionar efeitos sonoros (SFX) para cliques, movimento do agente, paredes se movendo e explosões.
+- [ ] **Controles de Estado do Jogo:** Adicionar botões interativos clicáveis na interface para `Start`, `Pause/Stop` e `Restart`.
+- [ ] **Controle de Áudio:** Adicionar um botão de controle de volume ou alternância de Mutar/Desmutar para os efeitos sonoros.

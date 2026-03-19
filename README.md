@@ -1,6 +1,11 @@
 # 🧠 Hybrid AI Maze: Q-Learning Agent vs LLM Game Director
 *(Para a versão em Português, [clique aqui](#-versão-em-português-brasileiro))*
 
+## 👨‍💻 Autor
+
+**Bento**
+- GitHub: [@prBento](https://github.com/prBento)
+
 ## 🇺🇸 English Version
 
 ### 🎯 About the Project
@@ -27,8 +32,8 @@ This is an advanced study project focused on Artificial Intelligence, Game Engin
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/prBento/hybrid-ai-maze.git](https://github.com/prBento/hybrid-ai-maze.git)
-   cd hybrid-ai-maze
+   git clone [https://github.com/prBento/StudyCode.git](https://github.com/prBento/StudyCode.git)
+   cd StudyCode/AI_Maze
    ```
 2. **Install the required dependencies:**
    Make sure you have Python 3.8+ installed. Then run:
@@ -89,8 +94,8 @@ Este é um projeto de estudo avançado focado em Inteligência Artificial, Engen
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/prBento/hybrid-ai-maze.git](https://github.com/prBento/hybrid-ai-maze.git)
-   cd hybrid-ai-maze
+   git clone [https://github.com/prBento/StudyCode.git](https://github.com/prBento/StudyCode.git)
+   cd StudyCode/AI_Maze
    ```
 2. **Instale as dependências:**
    Certifique-se de ter o Python 3.8+ instalado. Então rode:
@@ -123,4 +128,3 @@ Este projeto segue a especificação *Conventional Commits*: `feat:`, `fix:`, `d
 - [x] Fase 3: O Cérebro (Integração com LLM Diretor via Groq).
 - [x] Fase 4: Polimento de Engine (Multithreading, Lerp Temporal a 60 FPS, Topologia Toroide).
 - [x] Fase 5: XAI & UI/UX (Overhaul Sci-Fi, Degradação Graciosa, Painéis Duplos de Explicabilidade).
-
