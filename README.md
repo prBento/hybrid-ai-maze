@@ -27,8 +27,8 @@ This is an advanced study project focused on Artificial Intelligence, Game Engin
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/prBento/StudyCode.git](https://github.com/prBento/StudyCode.git)
-   cd StudyCode/AI_Maze
+   git clone [https://github.com/prBento/hybrid-ai-maze.git](https://github.com/prBento/hybrid-ai-maze.git)
+   cd hybrid-ai-maze
    ```
 2. **Install the required dependencies:**
    Make sure you have Python 3.8+ installed. Then run:
@@ -89,8 +89,8 @@ Este é um projeto de estudo avançado focado em Inteligência Artificial, Engen
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/prBento/StudyCode.git](https://github.com/prBento/StudyCode.git)
-   cd StudyCode/AI_Maze
+   git clone [https://github.com/prBento/hybrid-ai-maze.git](https://github.com/prBento/hybrid-ai-maze.git)
+   cd hybrid-ai-maze
    ```
 2. **Instale as dependências:**
    Certifique-se de ter o Python 3.8+ instalado. Então rode:
